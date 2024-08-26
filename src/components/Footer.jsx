@@ -26,6 +26,7 @@ const Footer = () => {
           Videosperschstunde
         </Link>
       </div>
+
       <div className="flex flex-col gap2">
         <Link className="font-bold flex gap-1 text-white items-center" href="">
           <div className="text-[#25dfdf] text-md">
@@ -68,6 +69,7 @@ const Footer = () => {
         <h1 className="font-light text-gray-300">Sa</h1>
         <h1 className=" text-white">09:00 - 14:00 Uhr</h1>
       </div>
+      
     </div>
   );
 };

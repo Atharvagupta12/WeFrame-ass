@@ -12,6 +12,7 @@ const Navbar = () => {
       <div className="text-[#25dfdf] text-2xl"><SiLeaflet /></div>
         <h1 className="md:text-3xl text-4xl font-bold text-green-900">Bluten</h1>
       </div>
+      
       <div className="links hidden lg:flex gap-[2rem]">
         <input
           type="text"
@@ -29,6 +30,7 @@ const Navbar = () => {
         <GiHamburgerMenu className="text-[#33a2a2] text-xl"/>
         </button>
       </div>
+
       <button className="bg-[#ade4e4] lg:hidden flex items-center gap-2 px-2 py-1 rounded">
         <GiHamburgerMenu className="text-[#33a2a2] text-xl"/>
         </button>

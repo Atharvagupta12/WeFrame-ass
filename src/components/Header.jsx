@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SiLeaflet } from "react-icons/si";
 import React from "react";
-import { FaSearch } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 
 
@@ -15,8 +14,6 @@ const Header = () => {
           className="border bg-[#e8fbfb] text-[#51a9a9] rounded-2xl px-5 py-1 "
          
         />
-    
-    
       </div>
 
       <div className="links  lg:flex items-center gap-[3rem]">
@@ -54,6 +51,7 @@ const Header = () => {
         <FaCartShopping className="text-xl text-[#33a2a2] cursor-pointer" />
         </div>
       </div>
+
       <div>
         <button className="bg-lime-200 px-4 py-1 rounded-tl-2xl rounded-br-2xl">
           Ammelden
