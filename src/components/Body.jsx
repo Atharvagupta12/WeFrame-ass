@@ -4,7 +4,7 @@ import Container from './Container'
 
 const Body = () => {
   return (
-    <div className='flex justify-between mx-20'>
+    <div className='flex justify-between gap-10 md:gap-0 mx-5 md:mx-20'>
       <Leftsidebar/>
       <Container/>
 

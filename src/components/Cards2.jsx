@@ -7,7 +7,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Cards2 = () => {
   return (
     <>
-      <div className=" flex justify-between items-center gap-3 font-sans ">
+      <div className=" flex flex-col md:flex-row justify-between items-center md:gap-3 gap-5 font-sans ">
         <div className="flex flex-col pt-5 border-2 border-[#60bbbb] rounded-tl-2xl rounded-br-2xl">
           <button className="bg-red-50 max-w-fit mx-5 px-3 py-1 flex items-center text-sm font-medium rounded-2xl text-red-900 ">
             <div className="w-2 h-2 mx-2 rounded-full bg-red-900"></div> nicht

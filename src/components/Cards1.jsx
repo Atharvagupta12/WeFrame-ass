@@ -4,8 +4,8 @@ import { GiPlantsAndAnimals } from "react-icons/gi";
 
 const Cards1 = () => {
   return (
-    <div className=" flex justify-between items-center gap-3 font-sans ">
-      <div className="flex flex-col pt-5 border-2 border-[#60bbbb] rounded-tl-2xl rounded-br-2xl">
+    <div className=" md:flex-row flex flex-col  justify-between items-center md:gap-3 gap-5 font-sans ">
+      <div className="flex flex-col  pt-5 border-2 border-[#60bbbb] rounded-tl-2xl rounded-br-2xl">
        <div className='flex justify-between'>
         <button className="bg-gray-100 max-w-fit mx-5 px-3 py-1 flex items-center text-sm font-normal rounded-2xl text-green-900 ">
           <div className="w-2 h-2 mx-2 rounded-full bg-green-900"></div> sofort
@@ -127,7 +127,7 @@ const Cards1 = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col pt-5 border-2 border-[#60bbbb] rounded-tl-2xl rounded-br-2xl">
+      <div className="flex flex-col  pt-5 border-2 border-[#60bbbb] rounded-tl-2xl rounded-br-2xl">
        <div className='flex justify-between'>
         <button className="bg-gray-100 max-w-fit mx-5 px-3 py-1 flex items-center text-sm font-normal rounded-2xl text-green-900 ">
           <div className="w-2 h-2 mx-2 rounded-full bg-green-900"></div> sofort

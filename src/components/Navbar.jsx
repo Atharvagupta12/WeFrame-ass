@@ -7,12 +7,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center mx-20 my-10">
+    <div className="flex justify-between items-center   mx-5 md:mx-20 my-10">
       <div className="logo flex gap-1 items-center">
       <div className="text-[#25dfdf] text-2xl"><SiLeaflet /></div>
-        <h1 className="text-3xl font-bold text-green-900">Bluten</h1>
+        <h1 className="md:text-3xl text-4xl font-bold text-green-900">Bluten</h1>
       </div>
-      <div className="links flex gap-[2rem]">
+      <div className="links hidden lg:flex gap-[2rem]">
         <input
           type="text"
           placeholder="Suschen"
@@ -29,6 +29,9 @@ const Navbar = () => {
         <GiHamburgerMenu className="text-[#33a2a2] text-xl"/>
         </button>
       </div>
+      <button className="bg-[#ade4e4] lg:hidden flex items-center gap-2 px-2 py-1 rounded">
+        <GiHamburgerMenu className="text-[#33a2a2] text-xl"/>
+        </button>
     </div>
   );
 };

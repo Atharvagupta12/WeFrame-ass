@@ -7,7 +7,7 @@ import { FaCartShopping } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <div className="Navbar flex justify-between items-center mx-20">
+    <div className="Navbar hidden lg:flex justify-between gap-10 md:gap-0 items-center mx-5 md:mx-20">
       <div>
         <input
           type="text"
@@ -19,7 +19,7 @@ const Header = () => {
     
       </div>
 
-      <div className="links flex items-center gap-[3rem]">
+      <div className="links  lg:flex items-center gap-[3rem]">
         <Link className="font-bold flex gap-1 items-center" href="">
           <div className="text-[#25dfdf] text-md">
             <SiLeaflet />

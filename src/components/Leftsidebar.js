@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Leftsidebar = () => {
   return (
-    <div className="w-[15vw] h-full text-center">
+    <div className="hidden sm:block h-full text-center">
       <div className="title bg-[#e8fbfb] p-1 ">
         <h1 className="text-2xl text-green-900 font-semibold">Filter</h1>
       </div>
